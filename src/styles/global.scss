@@ -1,0 +1,147 @@
+:root{
+    --white: #FFFFFF;
+    --black: #1C140D;
+    --egyptian-cotton: #F2E9E1;
+    --color-primary: #F8CA00;
+    --gray-5: #F7F8FA;
+    --gray-100: #C4C4C4;
+
+}
+
+
+html, body {
+    height: 100%;
+    font-family: Sanches, sans-serif;
+    
+    
+}
+
+body{ //todo o corpo do html
+    background: var(--gray-100);
+}
+
+body, input, textarea, button {
+    font: 500 1rem Sanches, sans-serif;
+    color: var(--black);
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    font-family: Inter, sans-serif;
+    color: var(--yellow);
+}
+
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+
+#root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+.container{
+    text-align: center;
+    margin-top: 8rem;
+    background-color: #212529;
+    color: #ffc107;
+    border-radius: 9rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+.content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.bg-primary {
+    background-color: var(--color-primary) !important;
+}
+
+.text-primary {
+    color: var(--color-primary) !important;
+}
+
+*/
+/*
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --white: #FFFFFF;
+    --black: #1C140D;
+    --egyptian-cotton: #F2E9E1;
+    --yellow: #F8CA00;
+    --gray-5: #F7F8FA;
+    --gray-100: #C4C4C4;
+
+}
+
+@media (max-width: 1080px){
+    html{
+        font-size: 93.75%; //15px
+    }
+}
+
+@media (max-width: 720px){
+    html{
+        font-size: 87.5%; //14px
+    }
+}
+
+body{ //todo o corpo do html
+    background: var(--gray-5);
+}
+
+body, input, textarea, button {
+    font: 500 1rem Sanches, sans-serif;
+    color: var(--black);
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    font-family: Inter, sans-serif;
+    color: var(--black);
+}
+
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+button{
+    cursor: pointer;
+}
+
+*/
